@@ -1,0 +1,8 @@
+[prod]
+host = "127.0.0.1"
+port = 10000
+server_crt = "/home/cyyber/pow/test/cert/certstrap/out/server.crt"
+server_key = "/home/cyyber/pow/test/cert/certstrap/out/server.key"
+client_crt = "/home/cyyber/pow/test/cert/certstrap/out/client.crt"
+client_key = "/home/cyyber/pow/test/cert/certstrap/out/client.key"
+cert_auth = "/home/cyyber/pow/test/cert/certstrap/out/My_Root_CA.crt"

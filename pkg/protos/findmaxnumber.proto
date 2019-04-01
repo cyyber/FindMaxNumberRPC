@@ -1,0 +1,14 @@
+// Distributed under the MIT software license, see the accompanying
+// file LICENSE or http://www.opensource.org/licenses/mit-license.php.
+
+syntax = "proto3";
+
+package protos;
+
+service FindMaxNumber {
+	rpc GetMaxNumber(stream Number) returns (stream Number) {}
+}
+
+message Number {
+	int64 number = 1;
+}
